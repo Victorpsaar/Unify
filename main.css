@@ -1,0 +1,88 @@
+.container {
+    max-width: 1024px;
+}
+
+.sec {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #00000036;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #5fb7ff;
+    color: #fff;
+    border-radius: 5%;
+}
+
+header {
+    border-bottom: 1px solid #00000036;
+    background-color: #fff;
+}
+
+.beneficios {
+    list-style: none;
+    padding-left: 6px;
+}
+
+.beneficios p {
+    margin-bottom: 6px;
+}
+
+.card {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.btn-buy {
+    border: 1px solid #00000036;
+    margin-top: 6px;
+    width: 100%;
+    transition-duration: 500ms;
+}
+
+.btn-buy:hover {
+    border: 1px solid #000;
+    scale: 105%;
+}
+
+.animation {
+    display: block;
+    position: absolute;
+    transition-duration: 500ms;
+    width: 200px;
+    height: 200px;
+    background-color: #7fffd4;
+    border-radius:  50%;
+    top: -70px;
+    right: -80px;
+    z-index: -1;
+}
+
+.card:hover {
+    .animation {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.accordion-button:not(.collapse) {
+    background-color: #e8f5ff;
+}
+
+#insta:hover {
+    background-color: #ff7878;
+    color: #fff;
+}
+
+#what:hover {
+    background-color: #2bbe8d;
+    color: #fff;
+}
+
+#face:hover {
+    background-color: #5fb7ff;
+    color: #fff;
+}
